@@ -11,7 +11,7 @@ import {
 import OnScroll from "./OnScroll";
 type Skill = {
   name: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
   highlight: boolean;
 };
 
