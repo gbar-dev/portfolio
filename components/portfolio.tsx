@@ -181,20 +181,24 @@ const Portfolio = () => {
                     ))}
                   </div>
                   <div className="flex space-x-4">
-                    <a
-                      href={project.github}
-                      className="flex items-center text-sky-600 hover:text-[#113264] transition-colors duration-300"
-                    >
-                      <Github className="w-5 h-5 mr-2" />
-                      Code
-                    </a>
-                    <a
-                      href={project.live}
-                      className="flex items-center text-sky-600 hover:text-[#113264] transition-colors duration-300"
-                    >
-                      <ExternalLink className="w-5 h-5 mr-2" />
-                      Live Demo
-                    </a>
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        className="flex items-center text-sky-600 hover:text-[#113264] transition-colors duration-300"
+                      >
+                        <Github className="w-5 h-5 mr-2" />
+                        Code
+                      </a>
+                    )}
+                    {project.live && (
+                      <a
+                        href={project.live}
+                        className="flex items-center text-sky-600 hover:text-[#113264] transition-colors duration-300"
+                      >
+                        <ExternalLink className="w-5 h-5 mr-2" />
+                        Live Demo
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

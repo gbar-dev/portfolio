@@ -964,7 +964,7 @@ const Portfolio = ()=>{
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "flex space-x-4",
                                                     children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        project.github && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                             href: project.github,
                                                             className: "flex items-center text-sky-600 hover:text-[#113264] transition-colors duration-300",
                                                             children: [
@@ -972,17 +972,17 @@ const Portfolio = ()=>{
                                                                     className: "w-5 h-5 mr-2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/portfolio.tsx",
-                                                                    lineNumber: 188,
-                                                                    columnNumber: 23
+                                                                    lineNumber: 189,
+                                                                    columnNumber: 25
                                                                 }, this),
                                                                 "Code"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/portfolio.tsx",
-                                                            lineNumber: 184,
-                                                            columnNumber: 21
+                                                            lineNumber: 185,
+                                                            columnNumber: 23
                                                         }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        project.live && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                             href: project.live,
                                                             className: "flex items-center text-sky-600 hover:text-[#113264] transition-colors duration-300",
                                                             children: [
@@ -990,15 +990,15 @@ const Portfolio = ()=>{
                                                                     className: "w-5 h-5 mr-2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/portfolio.tsx",
-                                                                    lineNumber: 195,
-                                                                    columnNumber: 23
+                                                                    lineNumber: 198,
+                                                                    columnNumber: 25
                                                                 }, this),
                                                                 "Live Demo"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/portfolio.tsx",
-                                                            lineNumber: 191,
-                                                            columnNumber: 21
+                                                            lineNumber: 194,
+                                                            columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
@@ -1036,7 +1036,7 @@ const Portfolio = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$contact$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 206,
+                lineNumber: 210,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -1048,17 +1048,17 @@ const Portfolio = ()=>{
                         children: "© 2025 Guillaume Baroin. Built with passion and lots of coffee ☕"
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio.tsx",
-                        lineNumber: 210,
+                        lineNumber: 214,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/portfolio.tsx",
-                    lineNumber: 209,
+                    lineNumber: 213,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/portfolio.tsx",
-                lineNumber: 208,
+                lineNumber: 212,
                 columnNumber: 7
             }, this)
         ]
