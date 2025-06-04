@@ -1,9 +1,16 @@
 import { FaDocker, FaGitAlt, FaReact } from "react-icons/fa";
+import { LuChartScatter } from "react-icons/lu";
 import { MdLoop } from "react-icons/md";
+import { PiShareNetwork } from "react-icons/pi";
+
 import {
   SiDjango,
+  SiElasticsearch,
   SiMongodb,
+  SiNumpy,
+  SiPandas,
   SiPostgresql,
+  SiTableau,
   SiTailwindcss,
   SiTypescript,
   SiVercel,
@@ -16,10 +23,38 @@ type Skill = {
 };
 
 const skills: {
+  datascience: Skill[];
   frontend: Skill[];
   backend: Skill[];
   other: Skill[];
 } = {
+  datascience: [
+    {
+      name: "Machine Learning",
+      icon: <LuChartScatter />,
+      highlight: true,
+    },
+    {
+      name: "Pandas",
+      icon: <SiPandas />,
+      highlight: false,
+    },
+    {
+      name: "Numpy",
+      icon: <SiNumpy />,
+      highlight: false,
+    },
+    {
+      name: "Tableau",
+      icon: <SiTableau />,
+      highlight: true,
+    },
+    {
+      name: "Deep Learning",
+      icon: <PiShareNetwork />,
+      highlight: false,
+    },
+  ],
   frontend: [
     {
       name: "React",
@@ -51,6 +86,11 @@ const skills: {
     {
       name: "PostgreSQL",
       icon: <SiPostgresql />,
+      highlight: false,
+    },
+    {
+      name: "Elasticsearch",
+      icon: <SiElasticsearch />,
       highlight: false,
     },
   ],
@@ -85,10 +125,12 @@ export default function SkillsSection() {
         Skills & Technologies
       </h2>
 
-      <div className="w-full max-w-6xl grid md:grid-cols-3 gap-12 ">
+      <div className="w-full max-w-6xl grid md:grid-cols-4 gap-12 ">
         {Object.entries(skills).map(([section, list]) => {
           const sectionTitle =
-            section === "frontend"
+            section === "datascience"
+              ? "Data Science"
+              : section === "frontend"
               ? "Front-end"
               : section === "backend"
               ? "Backend"
